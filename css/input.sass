@@ -1,0 +1,135 @@
+//*******************************************************************************
+// API LOGIN EXAMPLE
+//*******************************************************************************
+
+$font-stack: 'Quicksand', sans-serif
+$small-font: 0.75em
+$normal-color: #C24225
+$highlight-color: #E8AB1A
+$bold-color: #9E1D00
+$bg-color: #E8D29E
+
+body
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  margin: 0
+  height: 100%
+  background-color: $bg-color
+  color: $normal-color
+  font-family: $font-stack
+
+p
+  font-family: $font-stack
+  font-weight: normal
+
+a
+  color: $bold-color
+  text-decoration: none
+
+a:hover
+  color: $highlight-color
+
+img
+  max-width: 100%
+
+h1
+  @extend p
+  display: inline
+  text-transform: uppercase
+  font-size: 2.75em
+  color: $bold-color
+
+h2
+  @extend p
+  margin: -5px 0 0
+  font-size: 1.25em
+  color: $bold-color
+
+h3
+  @extend p
+  margin: 0 0 30px 0
+  text-transform: lowercase
+  font-size: 2.25em
+  font-weight: 700
+  color: $bold-color
+
+h4
+  @extend p
+  font-size: 1.25em
+
+header
+  float: center
+  z-index: 2
+  margin: 50px 5%
+  min-height: 100px
+
+nav
+  padding: auto
+  margin: 0
+  display: inline
+  width: 20%
+  vertical-align: middle
+
+nav a
+  font-weight: 700
+
+nav a, nav a:visited
+  color: $highlight-color
+
+nav a.selected, nav a:hover
+  color: $bold-color
+
+footer
+  clear: both
+  padding: 100px 0 30px 0
+  font-size: $small-font
+  text-align: center
+
+#wrapper
+  max-width: 940px
+  margin: 0 auto
+  padding: 0 5%
+  text-align: center
+
+#avatar
+  max-width: 40px
+  border-radius: 100%
+  display: inline
+  vertical-align: middle
+  padding: 0 10px
+
+#logout
+  padding: 0 5px
+
+.social-icon
+  width: 20px
+  height: 20px
+  margin: 0 5px
+
+@media screen and (min-width: 800px)
+  // a
+  //   &.selected, &:hover
+  //
+
+  h2
+    margin-bottom: 20px
+
+  header
+    margin-bottom: 60px
+
+  nav
+    background: none
+    float: right
+    font-size: 1.125em
+    margin-right: 5%
+    text-align: right
+    width: 40%
+
+
+
+
+// /*******************************************************************************
+// SMILE ^___^ YOU DONE
+// *******************************************************************************/

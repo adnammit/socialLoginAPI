@@ -1,0 +1,28 @@
+
+HELLO!
+Here is a simple deployment of the Janrain Social Login application. To
+demonstrate, I have made a mock website which a user may log into using Google+
+or Facebook.
+
+Step-by-step instructions can be found on the Janrain website:
+http://developers.janrain.com/how-to/social-login/implementation-steps/
+
+Helper functions courtesy of Janrain's github repo:
+https://github.com/janrain/Janrain-Sample-Code
+
+
+TO RUN:
+Since I've used relative URLs, paths do not need to be changed for this project
+to run smoothly from any local server.
+
+All you need to do is start your local server, open 'index.php' in your browser,
+and try logging in with g+ or Facebook -- your experience should now be
+personalized. For even more API fun, Log out and try it again.
+
+View 'API diagram.jpg' for a simplified graphical overview of the process.
+This project can also be viewed online at http://www.amandaryman.com/apitest/
+
+THANK YOU!
+Amanda Ryman
+amandaryman@gmail.com
+February 2016
