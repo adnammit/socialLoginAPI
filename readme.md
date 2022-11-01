@@ -1,3 +1,4 @@
+# README
 
 HELLO!
 Here is a simple deployment of the Janrain Social Login application. To
@@ -10,14 +11,15 @@ http://developers.janrain.com/how-to/social-login/implementation-steps/
 Helper functions courtesy of Janrain's github repo:
 https://github.com/janrain/Janrain-Sample-Code
 
+## DOCKER
+```sh
+# build:
+docker build -t amandaryman/magnificent-beluga .
+# run
+docker run --rm -it -p 8082:80 amandaryman/magnificent-beluga
+```
 
-TO RUN:
-Since I've used relative URLs, paths do not need to be changed for this project
-to run smoothly from any local server.
-
-All you need to do is start your local server, open 'index.php' in your browser,
-and try logging in with g+ or Facebook -- your experience should now be
-personalized. For even more API fun, Log out and try it again.
+After staring a Docker container, the app can be viewed at http://localhost:8082
 
 View 'API diagram.jpg' for a simplified graphical overview of the process.
 This project can also be viewed online at http://www.amandaryman.com/apitest/

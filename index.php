@@ -1,6 +1,5 @@
-<!-- LET'S SET SOME SIMPLE USER VARIABLES WITH A COOKIE -->
 <?php
-  session_start();
+session_start();
   if (isset($_SESSION['username'])) {
     $user = $_SESSION['username'];
   }
